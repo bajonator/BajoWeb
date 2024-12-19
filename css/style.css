@@ -7,7 +7,7 @@
     --colorH1: #110101;
     --colorH3: #169206;
 }
-body{
+/* body{
     font-family: 'Chakra Petch', sans-serif;
     margin: 0;
     background-color: black;
@@ -25,7 +25,7 @@ body::before {
     background-repeat: no-repeat;
     z-index: -2;
     opacity: 0.1; */
-}
+} */
 a{
     color: #3557a3;
     text-decoration: none;

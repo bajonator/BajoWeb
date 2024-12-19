@@ -14,7 +14,29 @@
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Snowstorm/20131208/snowstorm-min.js"></script>
 </head>
-<body style="background-image: url(./items/img/FILE421.JPG); background-size: cover; background-repeat: no-repeat; z-index: -2; opacity: 0.1">
+
+<style>
+body{
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 0;
+    background-color: black;
+    color: #d4c6c6;
+    opacity: 0;
+    overflow-x: hidden;
+}
+body::before {
+    content: "";    
+    position: fixed;
+    width: 100%; 
+    height: 100%;
+    background-image: url("./items/img/FILE421.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -2;
+    opacity: 0.1;
+}
+</style>
+<body>
     <header class="headerCentered">    
         <div class="title">
             <h1>Bajonet.Net</h1>

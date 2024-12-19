@@ -20,7 +20,7 @@ body::before {
     position: fixed;
     width: 100%; 
     height: 100%;
-    background-image: url("/Items/img/FILE421.JPG");
+    background-image: url("/items/img/FILE421.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     z-index: -2;
